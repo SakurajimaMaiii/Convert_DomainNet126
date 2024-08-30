@@ -1,8 +1,8 @@
 # Convert_DomainNet126
-convert domainnet to domainnet126
+This repository demonstrates the process of converting the DomainNet [1] dataset to the DomainNet126 [2] dataset.
 
 ## Download dataset
-Download DomainNet dataset.
+Download [DomainNet](https://ai.bu.edu/M3SDA/) dataset.
 ```bash
 #!/bin/bash
 
@@ -35,3 +35,7 @@ data_dir
 ```python
 python convert_domainnet126.py --raw_data_path your_dir --output_path output_dir
 ```
+
+## Reference
+[1] Moment Matching for Multi-Source Domain Adaptation. ICCV 2019.
+[2] Semi-supervised Domain Adaptation via Minimax Entropy. ICCV 2019.
