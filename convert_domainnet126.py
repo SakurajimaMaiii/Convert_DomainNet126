@@ -27,7 +27,7 @@ if __name__ == "__main__":
     import argparse
     from tqdm import tqdm
 
-    parser = argparse.ArgumentParser(description="Test HF checkpoint.")
+    parser = argparse.ArgumentParser(description="convert")
     parser.add_argument("--raw_data_path", type=str,default="./image_list")
     parser.add_argument("--output_path",type=str,default="./")
     args = parser.parse_args()
