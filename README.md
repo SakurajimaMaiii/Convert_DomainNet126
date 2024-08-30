@@ -32,7 +32,7 @@ data_dir
 ```
 
 ## Convert
-```python
+```bash
 python convert_domainnet126.py --raw_data_path your_dir --output_path output_dir
 ```
 
