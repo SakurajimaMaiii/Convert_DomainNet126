@@ -37,5 +37,5 @@ python convert_domainnet126.py --raw_data_path your_dir --output_path output_dir
 ```
 
 ## Reference
-[1] Moment Matching for Multi-Source Domain Adaptation. ICCV 2019.
+[1] Moment Matching for Multi-Source Domain Adaptation. ICCV 2019.  
 [2] Semi-supervised Domain Adaptation via Minimax Entropy. ICCV 2019.
